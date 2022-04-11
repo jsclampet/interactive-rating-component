@@ -1,8 +1,11 @@
+/* GLOBAL SETTINGS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* CSS */
 body{
     font-family: sans-serif;
 }
@@ -12,47 +15,82 @@ body{
     height: 100vh;
     background-color: #111316;
 }
-.feedback-card {
-    width: 412px;
-    height: 416px;
-    margin-top: 195px;
+.card {
+    width: 327px;
+    height: 360px;
+    margin-top: 154px;
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #151a22 100%);
-    padding: 30px;
-    border-radius: 40px;
+    padding: 29px;
+    border-radius: 15px;
     color: #7C8798;
 }
 .feedback-card i {
     border-radius: 100%;
     color: #FC7614;
-    padding: 15px;
+    padding: 10px;
     background-color: #2f364d;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .feedback-card h2{
     color: white;
-    margin-bottom: 20px;
-    font-size: 28px;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 .feedback-card p{
     margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 20px;
 }
 .rating-scale{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 44px;
+    margin-bottom: 27px;
 }
 .rating-scale button{
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 10px 15px;
     background-color: #2f364d;
     border: none;
     font-size: 18px;
+    color: lightgray;
 }
 .submit{
     width: 100%;
-    padding: 15px 20px;
+    padding: 12px 20px;
     border-radius: 30px;
     background-color: #FC7614;
     color: white;
     font-size: 16px;
+    border: none;
+}
+
+.thankyou-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.thankyou-card h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+}
+.thankyou-card div {
+    font-size: 14px;
+    background-color: #2f364d;
+    color: #FC7614;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+.thankyou-card p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+
+/* UTILITY CLASSES */
+.hidden {
+    display: none;
 }
