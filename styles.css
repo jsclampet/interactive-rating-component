@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #131518;
+}
+.feedback-card {
+    width: 412px;
+    height: 416px;
+    margin-top: 195px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    padding: 30px;
+    border-radius: 30px;
+    color: #7C8798;
+}
+.feedback-card i {
+    border-radius: 100%;
+    color: #FC7614;
+    padding: 10px;
+    background-color: #232A41;
+}
+
+.rating-scale button{
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: #7C8798;
+}
