@@ -3,31 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: sans-serif;
+}
 .main-container {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: #131518;
+    background-color: #111316;
 }
 .feedback-card {
     width: 412px;
     height: 416px;
     margin-top: 195px;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #151a22 100%);
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 40px;
     color: #7C8798;
 }
 .feedback-card i {
     border-radius: 100%;
     color: #FC7614;
-    padding: 10px;
-    background-color: #232A41;
+    padding: 15px;
+    background-color: #2f364d;
+    margin-bottom: 30px;
 }
-
+.feedback-card h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.feedback-card p{
+    margin-bottom: 25px;
+}
+.rating-scale{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
 .rating-scale button{
     border-radius: 50%;
-    padding: 5px 10px;
-    background-color: #7C8798;
+    padding: 15px 20px;
+    background-color: #2f364d;
+    border: none;
+    font-size: 18px;
+}
+.submit{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #FC7614;
+    color: white;
+    font-size: 16px;
 }
