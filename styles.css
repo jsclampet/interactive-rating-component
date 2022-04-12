@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* CSS */
 body{
     font-family: sans-serif;
@@ -63,7 +62,6 @@ body{
     font-size: 16px;
     border: none;
 }
-
 .thankyou-card {
     display: flex;
     flex-direction: column;
@@ -94,3 +92,62 @@ body{
 .hidden {
     display: none;
 }
+
+
+
+
+/* DESKTOP VIEW */
+@media only screen and (min-width: 768px){
+    /* Feature Card */
+    .card {
+        width: 412px;
+        height: 416px;
+        margin-top: 195px;
+        padding: 30px;
+    }
+    .feedback-card i {
+        padding: 13px;
+        margin-bottom: 30px;
+    }
+    .feedback-card h2 {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 7px;
+    }
+    .feedback-card p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .rating-scale {
+        margin-bottom: 35px;
+    }
+    .rating-scale button {
+        padding: 17px 23px;
+        font-size: 16px;
+    }
+    .rating-scale button:hover {
+        color: white;
+        background-color: #FC7614;
+        cursor: pointer;
+    }
+    .feedback-card .btn-active {
+        color: white;
+        background-color: #7C8798;
+    }
+    .submit {
+        padding: 15px;
+    }
+    .submit:hover {
+        color: #FC7614;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    /* Thankyou Card */
+    .thankyou-card h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
